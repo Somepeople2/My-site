@@ -1,0 +1,12 @@
+section{
+    border: 5px dotted #5858d9;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+}
+h1,p{
+    
+    color: #6f6fd8;
+}
