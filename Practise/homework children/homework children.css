@@ -1,0 +1,12 @@
+li:first-child{
+    border: 2px blue solid;
+}
+li:last-child{
+    opacity: 0;
+}
+li:nth-child(3n){
+    background-color: green;
+}
+li:nth-child(10n){
+    background-color: blue;
+}

@@ -1,0 +1,30 @@
+div{
+    height: 200px;
+}
+.wrap{
+    height: 2000px;
+    width: 1200px;
+    border: 2px blue solid;
+    align-items: center;
+}
+.wrap div:first-child{
+    position: static;
+}
+.wrap div:nth-child(4),.wrap div:nth-child(4){
+    position: relative;
+    right: 250px;
+    top: 100px;
+}
+.wrap div:last-child{
+    position: absolute;
+    left: 500px;
+    bottom: 10px;
+}
+.wrap div :nth-child(6){
+    position: fixed;
+}
+.wrap div:nth-child(3){
+    position: sticky;
+    left: 615px;
+    bottom: 651px
+}

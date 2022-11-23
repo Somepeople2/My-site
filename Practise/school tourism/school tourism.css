@@ -1,0 +1,19 @@
+nav,section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stuff{
+    width: 250px;
+}
+div{
+    flex-direction: column;
+}
+nav{
+    border: none 1px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0px 3px 2px black;
+}
+.special{
+    text-decoration: underline;
+}

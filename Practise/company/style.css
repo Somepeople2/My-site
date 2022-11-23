@@ -1,0 +1,28 @@
+a:link{
+    color: #001aff;
+}
+a:visited{
+    color:#5b6bff
+}
+a:hover{
+    color:aqua
+}
+a:active{
+    color: red;
+}
+h1{
+    color: black;
+    background-color:#5b6bff;
+}
+p{
+    color: #5b6bff;
+}
+label,#red{
+    color: red;
+}
+#greenH{
+    background-color: green;
+}
+#greenP{
+    color: greenyellow;
+}

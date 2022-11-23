@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+   
+}
+
+.item{
+    list-style: none;
+    background-color: rgb(130, 130, 255);
+    color: rgb(45, 145, 50);
+}
+.item:first-child{
+    color: red;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    align-items: center;
+}

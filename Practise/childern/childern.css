@@ -1,0 +1,9 @@
+.item:first-child{
+    color: red;
+}
+.item:nth-child(2),.item:nth-child(3){
+    color: blue;
+}
+.item:last-child{
+    color:green
+}

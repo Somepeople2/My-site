@@ -6,7 +6,25 @@ section{
     align-items: center;
     border-radius: 50px;
 }
-h1,p{
-    
+h1,p,h4,a{
     color: #6f6fd8;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover{
+    color: #3f3fff;
+}
+a:active{
+    color: #c1c1ff;
+}
+a:visited{
+    color: #0303be;
+}
+li{
+    list-style: none;
+}
+.logo{
+    padding-left: 600px;
+}
+.made_by{
+    padding-right: 600px;
 }

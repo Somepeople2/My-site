@@ -1,0 +1,17 @@
+#grow{
+    font: 400;
+    background-color: blueviolet;
+}
+#change{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#change:hover{
+    color: blue;
+}
+#orang{
+    color: orange;
+}
+#grow:active{
+    font-size: 800px;
+}

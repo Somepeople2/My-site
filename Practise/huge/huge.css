@@ -1,0 +1,36 @@
+#outline1{
+    border: 2px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+#text1{
+    background-color: rgb(255, 190, 70);
+}
+#image1{border-style: solid;
+    border: 2px;
+    border-color: greenyellow;
+}
+#image2{
+    border: 2px;
+    border-color: blue;
+}
+#outline2{
+    border: 2px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#text2{
+    color: rgb(0, 171, 171);
+    background-color: aquamarine;
+}
+h1{
+    background-color: rgb(255, 190, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6, p, label{
+    color: rgb(149, 77, 0);
+    margin-left: 8px;
+}
+.OH-NO{
+    color: rgb(165, 0, 0);
+    font-weight: bolder;
+}
+h1{
+    font-style: italic;
+}
+.garden{
+    color: green;
+}
+.stock{
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+}
+.pantheon{
+    color: rgb(255, 242, 101);
+}
+.grimoire{
+    color: rgb(56, 56, 253);
+}
+.table-description{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

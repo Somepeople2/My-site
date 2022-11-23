@@ -1,0 +1,14 @@
+.abs1::first-letter{
+    color: orange;
+    font-size: 30px;
+}
+.abs2::first-line{
+    background-color: red;
+    color: blue;
+}
+.abs3::before{
+    content: '!!!!!';
+}
+.abs4::after{
+    content: '??????';
+}

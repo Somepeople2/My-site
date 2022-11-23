@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    font-family: 'Poppins';
+}
+section{
+    margin-left: 166px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+.Home{
+    color: #58A9A5;
+    font-weight: 700;
+}
+.inpiration{
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    color: #1C2323;
+    font-style: normal;
+    width: 625px;
+}
+.architecture{
+    color: #404242;
+    font-size: 30px;
+    width: 590px;
+}
+.button{
+    color: white;
+    border: 1px none;
+    background-color: #58A9A5;
+    width: 271px;
+    height: 45px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 21px;
+    font-weight: 500;
+}
+#Lets{
+    border-radius: 20px 20px 20px 0px;
+}

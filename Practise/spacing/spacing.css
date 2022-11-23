@@ -1,0 +1,11 @@
+p{
+    border: 2px;
+    border-style: dashed;
+    border-color: greenyellow;
+    margin: 75px;
+    padding-left: 40px;
+}
+img{
+    margin-left: 40px;
+    margin-right: 10px;
+}

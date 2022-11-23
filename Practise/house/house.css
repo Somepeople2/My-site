@@ -1,0 +1,12 @@
+a:hover{
+    background-color: aqua;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: rgb(191, 0, 255);
+}
+a:link{
+    color: orangered;
+}
