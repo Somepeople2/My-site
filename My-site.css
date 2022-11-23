@@ -16,9 +16,6 @@ a:hover{
 a:active{
     color: #c1c1ff;
 }
-a:visited{
-    color: #0303be;
-}
 li{
     list-style: none;
 }
