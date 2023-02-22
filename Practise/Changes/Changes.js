@@ -1,0 +1,16 @@
+let num = 45;
+let strnum = "66";
+let str = 'alex';
+let bool = true;
+alert(num + strnum);
+alert(strnum + str);
+alert(num + str);
+alert(strnum + bool);
+num = String(num);
+strnum = Number(strnum);
+str = Boolean(str);
+bool = String(bool);
+alert(num);
+alert(strnum);
+alert(str);
+alert(bool);

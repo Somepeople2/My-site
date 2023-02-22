@@ -1,0 +1,56 @@
+div{
+    display: grid;
+    grid-template: repeat(5,1fr)/ repeat(8,1fr);
+    width: 1500px;
+    grid-template-areas: 
+    "a1 a1 a2 a2 a3 a3 a4 a4"
+    "a5 a5 a5 a5 a6 a6 a6 a6"
+    "a7 a7 a8 a8 a8 a9 a9 a9"
+    "a10 a10 a10 a10 a10 a10 a10 a10"
+    "a11 a11 a11 a12 a12 a12 a12 a12";
+
+}
+p{
+    border: 1px solid rgb(8, 0, 255);
+    background-color: rgb(103, 180, 222);
+    text-align: center;
+    height: 100px;
+    list-style: none;
+    margin: 0px;
+}
+.area1{
+    grid-area: a1;
+}
+.area2{
+    grid-area: a2;
+}
+.area3{
+    grid-area: a3;
+}
+.area4{
+    grid-area: a4;
+}
+.area5{
+    grid-area: a5;
+}
+.area6{
+    grid-area: a6;
+}
+.area7{
+    grid-area: a7;
+}
+.area8{
+    grid-area: a8;
+}
+.area9{
+    grid-area: a9;
+}
+.area10{
+    grid-area: a10;
+}
+.area11{
+    grid-area: a11;
+}
+.area12{
+    grid-area: a12;
+}
