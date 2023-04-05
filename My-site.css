@@ -5,10 +5,15 @@ section{
     justify-content: space-around;
     align-items: center;
     border-radius: 50px;
+    margin: 5px;
 }
-h1,p,h4,a{
+h1,p,h3,a{
     color: #6f6fd8;
     font-family: 'Courier New', Courier, monospace;
+}
+h3{margin-left: 40px;}
+p{
+    margin-left: 6px;
 }
 a:hover{
     color: #3f3fff;
@@ -24,4 +29,8 @@ li{
 }
 .made_by{
     padding-right: 600px;
+}
+div{
+    border: 2px solid #5858d9;
+    margin: 8px;
 }
