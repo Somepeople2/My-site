@@ -1,3 +1,7 @@
+body{
+    background-image: url(pattern-tile.png);
+    background-repeat: repeat;
+}
 section{
     border: 5px dotted #5858d9;
     align-self: center;
@@ -6,6 +10,10 @@ section{
     align-items: center;
     border-radius: 50px;
     margin: 5px;
+}
+div{
+    border: 2px solid #5858d9;
+    margin: 8px;
 }
 h1,p,h3,a{
     color: #6f6fd8;
@@ -23,14 +31,4 @@ a:active{
 }
 li{
     list-style: none;
-}
-.logo{
-    padding-left: 600px;
-}
-.made_by{
-    padding-right: 600px;
-}
-div{
-    border: 2px solid #5858d9;
-    margin: 8px;
 }
