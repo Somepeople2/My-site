@@ -10,8 +10,7 @@
 body{
     margin: 0px;
 }
-
-p,h3{
+p,h3,h1,h4{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #Button{
@@ -21,13 +20,46 @@ p,h3{
     border-radius: 14px;
     padding: 10px;
     margin-left: 15px;
+    display: flex;
+    flex-direction: row;
 }
 #horisontal,#vertical{
     display: flex;
     align-items: center;
 }
+.mountain{
+    background-image: url("mountain.png");
+    background-size: 100%;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
 #horisontal{flex-direction: row;}
 #vertical{flex-direction: column;}
-table{
-    margin: 50px;
+#right{
+    justify-items: right;
+    display: flex;
+    color: white;
+    align-items: end;
+    flex-direction: column;
+    margin-right: 50px;
+}
+table{margin: 50px;}
+#fuji{
+    width: 306px;
+}
+#circle{
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: black;
+}
+#left{
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
